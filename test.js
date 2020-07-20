@@ -1,7 +1,7 @@
 import path from 'path';
 import test from 'ava';
 import wallpaper from '.';
-
+//변경사항
 test('main', async t => {
 	const orignalImagePath = await wallpaper.get();
 
